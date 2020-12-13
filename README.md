@@ -35,7 +35,8 @@ After this extraction process, you have the original image and the RGBs vectors.
 In figure 1, there is an example of a thumbnail of nerdologia channel. 
 
 
-![Example of Nerdologia Thumbnail](./fig/nerdologia_original.png) Figure 1. Example of a thumbnail
+![Example of Nerdologia Thumbnail](./fig/nerdologia_original.png) 
+Figure 1. Example of a thumbnail
 
 In figure 2, we plot the same image three times, each one considering one vector of colors.
 
