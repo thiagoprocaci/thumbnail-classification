@@ -35,16 +35,26 @@ After this extraction process, you have the original image and the RGBs vectors.
 In figure 1, there is an example of a thumbnail of nerdologia channel. 
 
 
-![Example of Nerdologia Thumbnail](./fig/nerdologia_original.png) 
-Figure 1. Example of a thumbnail
+
+| ![Example of Nerdologia Thumbnail](./fig/nerdologia_original.png) | 
+|:--:| 
+| *Figure 1. Example of a thumbnail* |
+ 
+
+
 
 In figure 2, we plot the same image three times, each one considering one vector of colors.
 
-![Example of Nerdologia Thumbnail RGB](./fig/nerdologia_rgb.png) Figure 2. Thumbnail RGB
+| ![Example of Nerdologia Thumbnail RGB](./fig/nerdologia_rgb.png) | 
+|:--:| 
+| *Figure 2. Thumbnail RGB* |
 
 In figure 3, we have the RGB distribution represented by histograms.
 
-![Example of Nerdologia Thumbnail RGB](./fig/nerdologia_rgb_hist.png) Figure 3. RGB vectors as histograms
+
+| ![Example of Nerdologia Thumbnail RGB](./fig/nerdologia_rgb_hist.png) | 
+|:--:| 
+| *Figure 3. RGB vectors as histograms* |
 
 The code that plots figure 1,2,3 is in the `plot method` in the class `Thumbnail`.
 We also save the downloaded thumbnails in the file `thumbnails.npz`.
