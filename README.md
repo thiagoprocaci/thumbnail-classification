@@ -67,7 +67,7 @@ Then, we place a max-pooling 2d function in the pooling layer and flatten the ve
 Finally, we put two linear transformations in the fully connected layer that is followed by a softmax function.
 The softmax function will say if a thumbnail belongs to nerdologia or peixe babel channel, by a probability.
 
-[In this video](https://www.youtube.com/watch?v=bNb2fEVKeEo), the reseacher Serena Yeung explains in details how CNN works.
+[In this video](https://www.youtube.com/watch?v=bNb2fEVKeEo), the researcher Serena Yeung explains in details how CNN works.
 
 The class `Net` describes our CNN architecture.
 
