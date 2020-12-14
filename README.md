@@ -61,11 +61,11 @@ We also save the downloaded thumbnails in the file `thumbnails.npz`.
 
 ## Neural Network Architecture
 
-Once having the input features, we defined the CNN architecture.
+Once having the input features, the next step is to define the CNN architecture.
 We put two 2d convolutions followed by relu activation function in the convolution/activation layer.
 Then, we place a max-pooling 2d function in the pooling layer and flatten the vectors.
 Finally, we put two linear transformations in the fully connected layer that is followed by a softmax function.
-The softmax function will say if a thumbnail belongs to nerdologia or peixe babel channel, by a probability.
+The softmax function will say if a thumbnail belongs to nerdologia or peixe babel channel.
 
 [In this video](https://www.youtube.com/watch?v=bNb2fEVKeEo), the researcher Serena Yeung explains in detail how CNN works.
 
