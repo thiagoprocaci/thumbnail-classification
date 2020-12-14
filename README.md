@@ -75,7 +75,7 @@ The class `Net` describes our CNN architecture.
 
 Then, we start the training process by dividing our dataset into training and test set. 
 We instantiate the model (class `Net`), feed it with data, and calculate the metrics accuracy, precision, recall, and f-measure (F1) to verify the quality of the classifications.
-After each iteration, it is possible to see the model improvement:
+After each iteration, it is possible to see the model improvement in the log:
 
 `````
 Train Epoch: 10 [530/574 (91%)]	Loss: 0.619260
@@ -87,7 +87,12 @@ Train Epoch: 10 [228/574 (98%)]	Loss: 1.016665
 Test set: Average loss: 0.2127, Accuracy: 94/101 (93.07%), Precision: 0.94, Recall: 0.92, F1: 0.93 
 `````
 
-Take a look at the method train, test and predict to see how we build the model.
+Take a look at the method train and test to see how we build the model.
+
+## Predictions
+
+Having the model, we can start to make predictions. You inform a new thumbnail and the model will classify it into nerdologia and peixe babel (our channels).
+That's the idea of the method `predict`. 
 
 
 
