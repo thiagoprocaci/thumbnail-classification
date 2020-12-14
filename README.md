@@ -91,7 +91,7 @@ Take a look at the method train and test to see how we build the model.
 
 ## Predictions
 
-Having the model, we can start to make predictions. You inform a new thumbnail and the model will classify it into nerdologia and peixe babel (our channels).
+Having the model, we can start to make predictions. You inform a new thumbnail and the model will classify it into nerdologia or peixe babel (our channels).
 That's the idea of the method `predict`. 
 Below in figure 4, there is an example of a prediction where the model classified the thumbnail as nerdologia.
 
