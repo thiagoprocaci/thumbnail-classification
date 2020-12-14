@@ -100,6 +100,11 @@ Below in figure 4, there is an example of a prediction where the model classifie
 | *Figure 4. Prediction* |
 
 
+## Conclusion
+
+PyTorch is very developer-friendly. It gives you the possibility to define reusable classes/modules in an object-oriented programming manner. 
+I find PyTorch approach flexible and powerful.
+
 
 
 
