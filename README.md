@@ -67,11 +67,11 @@ Then, we place a max-pooling 2d function in the pooling layer and flatten the ve
 Finally, we put two linear transformations in the fully connected layer that is followed by a softmax function.
 The softmax function will say if a thumbnail belongs to nerdologia or peixe babel channel, by a probability.
 
-[In this video](https://www.youtube.com/watch?v=bNb2fEVKeEo), the researcher Serena Yeung explains in details how CNN works.
+[In this video](https://www.youtube.com/watch?v=bNb2fEVKeEo), the researcher Serena Yeung explains in detail how CNN works.
 
 The class `Net` describes our CNN architecture.
 
-## Trainning and Testing Process
+## Training and Testing Process
 
 Then, we start the training process by dividing our dataset into training and test set. 
 We instantiate the model (class `Net`), feed it with data, and calculate the metrics accuracy, precision, recall, and f-measure (F1) to verify the quality of the classifications.
@@ -93,6 +93,13 @@ Take a look at the method train and test to see how we build the model.
 
 Having the model, we can start to make predictions. You inform a new thumbnail and the model will classify it into nerdologia and peixe babel (our channels).
 That's the idea of the method `predict`. 
+Below in figure 4, there is an example of a prediction where the model classified the thumbnail as nerdologia.
+
+| ![Example of Prediction](./fig/prediction.png) | 
+|:--:| 
+| *Figure 4. Prediction* |
+
+
 
 
 
